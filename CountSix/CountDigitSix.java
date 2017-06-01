@@ -38,7 +38,7 @@ public class CountDigitSix {
       return 0;
     }
 
-    int prevCount = countTarget(start, end);
+    int prevCount = countTarget(start, target);
     int count = prevCount;
 
     for(int i = start + 1 ;  i<= end ;  i++){
